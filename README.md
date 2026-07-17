@@ -1,25 +1,22 @@
-# 🤖 YOLO Vision AI
+# YOLO Vision AI 🚀
 
-A professional Object Detection application built using **YOLOv8**, **OpenCV**, and **Streamlit**.
+Real-time object detection application built using YOLO and Streamlit.
 
-## 🚀 Features
+## Live Demo
+<https://yolo-vision-ai-xqgxrqhaofxttztd6kkajr.streamlit.app/>
 
-- 📷 Image Detection
-- 🎥 Video Detection
-- 📹 Live Webcam Detection
-- 🚗 Object Tracking
-- 📊 Dashboard
-- ⚙ Settings
-- 📥 Download Detection Results
+## Features
 
-## 🛠 Tech Stack
+- Real-time Object Detection
+- YOLO Model Integration
+- Image Detection
+- Confidence Score Display
+- Streamlit Web Interface
+
+## Tech Stack
 
 - Python
 - YOLOv8
 - OpenCV
 - Streamlit
 - PyTorch
-
-## 👨‍💻 Author
-
-**Mohd Aamir Salam**
