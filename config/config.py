@@ -1,0 +1,7 @@
+CAMERA_INDEX = 0
+
+MODEL_PATH = "models/yolov8n.pt"
+
+CONFIDENCE_THRESHOLD = 0.5
+
+WINDOW_NAME = "YOLO Object Detection"
