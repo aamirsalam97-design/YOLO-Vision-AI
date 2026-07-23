@@ -1,10 +1,5 @@
+venv/
 __pycache__/
 *.pyc
-.venv/
-venv/
-.env
-
 output/
-history.csv
-
-.DS_Store
+.history/

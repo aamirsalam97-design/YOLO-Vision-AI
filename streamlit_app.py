@@ -1,4 +1,9 @@
 import os
+
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+
+import cv2
+import os
 import cv2
 import av
 import tempfile
