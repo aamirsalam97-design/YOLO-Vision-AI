@@ -1,7 +1,3 @@
-import streamlit as st
-
-st.write("App Started Successfully")
-st.stop()
 import os
 import cv2
 import av
@@ -30,14 +26,11 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return YOLO("models/yolov8n.pt")
+    return YOLO("yolov8n.pt")
 
 model = load_model()
 
-# ---------------------------------
 # WEBCAM PROCESSOR
-# ---------------------------------
-
 class YOLOProcessor(VideoProcessorBase):
 
     def recv(self, frame):
@@ -145,10 +138,7 @@ This application can perform:
 ✅ Download Results
 """)
 
-    st.image(
-        "https://docs.ultralytics.com/images/bus.jpg",
-        use_container_width=True
-    )
+    st.image("https://docs.ultralytics.com/images/bus.jpg")
     # ---------------------------------
 # IMAGE DETECTION
 # ---------------------------------
