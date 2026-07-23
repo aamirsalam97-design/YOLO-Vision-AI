@@ -1,3 +1,7 @@
+import streamlit as st
+
+st.write("App Started Successfully")
+st.stop()
 import os
 import cv2
 import av
